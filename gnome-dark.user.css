@@ -1,0 +1,78 @@
+/* ==UserStyle==
+@name         GNOME Dark
+@version      0.1.0
+@description  Dark theme for the GNOME websites
+@namespace    Daniel071
+@author       Daniel071
+@match        gnome.org
+@homepageURL  https://github.com/daniel071/gnomeDark
+@supportURL   https://github.com/daniel071/gnomeDark/issues
+@updateURL    https://raw.githubusercontent.com/daniel071/gnomeDark/master/gnome-dark.user.css
+@license      GPLv3
+==/UserStyle== */
+
+html {
+    background: #222;   
+}
+
+#global_domain_bar {
+    display:none;
+}
+
+h1, h2, h3, h4, h5, h6, h7, #footer {
+    color:#ccc;
+    border-bottom:none;
+}
+
+h1 {
+    text-shadow:none;
+}
+
+
+div.links, .desc, div.title, #container  {
+    color:#ccc;
+}
+
+div.sect div.hgroup {
+    border-bottom:none;
+}
+
+a.linkdiv > span.desc {
+    color:#b5b4b4;
+}
+
+#top_bar {
+    background:#2e3436;
+}
+
+a {
+    color:#0083b7;
+}
+
+a:visited {
+    color:#0079c4;
+}
+
+a:hover {
+    color:#00b7ff;
+}
+
+#footer {
+    background:#2e3436;
+}
+
+#footer_art, #footer_grass, .action_box {
+    display:none;
+}
+
+div.trails {
+    background-color:#222;  
+}
+
+a.linkdiv:hover {
+  text-decoration: none;
+  background-color: #262626;
+}
+.linkdiv {
+    border-radius:6px;
+}
