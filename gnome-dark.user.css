@@ -1,4 +1,4 @@
-domain("gnome.org")
+@-moz-document domain("gnome.org") {
 /* ==UserStyle==
 @name         GNOME Dark
 @version      0.1.0
@@ -75,4 +75,5 @@ a.linkdiv:hover {
 }
 .linkdiv {
     border-radius:6px;
+}
 }
