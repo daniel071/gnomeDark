@@ -1,10 +1,10 @@
+domain("gnome.org")
 /* ==UserStyle==
 @name         GNOME Dark
 @version      0.1.0
 @description  Dark theme for the GNOME websites
 @namespace    Daniel071
 @author       Daniel071
-@match        gnome.org
 @homepageURL  https://github.com/daniel071/gnomeDark
 @supportURL   https://github.com/daniel071/gnomeDark/issues
 @updateURL    https://raw.githubusercontent.com/daniel071/gnomeDark/master/gnome-dark.user.css
