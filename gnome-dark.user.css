@@ -1,7 +1,7 @@
 @-moz-document domain("gnome.org") {
 /* ==UserStyle==
 @name         GNOME Dark
-@version      0.1.1
+@version      0.1.2
 @description  Dark theme for the GNOME websites
 @namespace    Daniel071
 @author       Daniel071
@@ -29,7 +29,7 @@ h1 {
 }
 
 
-div.links, .desc, div.title, #container  {
+div.links, .desc, div.title, #container, span.gui, span.guiseq {
     color:#ccc;
 }
 
