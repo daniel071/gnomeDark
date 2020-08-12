@@ -1,7 +1,7 @@
 @-moz-document domain("gnome.org") {
 /* ==UserStyle==
 @name         GNOME Dark
-@version      0.1.0
+@version      0.1.1
 @description  Dark theme for the GNOME websites
 @namespace    Daniel071
 @author       Daniel071
@@ -73,7 +73,12 @@ a.linkdiv:hover {
   text-decoration: none;
   background-color: #262626;
 }
+    
 .linkdiv {
     border-radius:6px;
+}
+    
+.subtle_box {
+    background: #2e3436;
 }
 }
