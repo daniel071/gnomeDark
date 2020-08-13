@@ -1,7 +1,7 @@
 @-moz-document domain("gnome.org") {
 /* ==UserStyle==
 @name         GNOME Dark
-@version      0.2.1
+@version      0.3.0
 @description  Dark theme for the GNOME websites
 @namespace    Daniel071
 @author       Daniel071
@@ -11,7 +11,7 @@
 @license      GPLv3
 ==/UserStyle== */
 
-html {
+html, body {
     background: #222;   
 }
 
@@ -28,13 +28,22 @@ h1 {
     text-shadow:none;
 }
 
-div#welcome h1 {
+div#welcome h1, .page_title {
     text-shadow: none;
     border-bottom: none;
 }
 
-div.links, .desc, div.title, #container, span.gui, span.guiseq, div.subindex p, div.links .desc {
+
+div.links, .desc, div.title, #container, span.gui, span.guiseq, div.subindex p, div.links .desc, .content, .crafted_content .section h2, .crafted_content .section h3, .news_list .news a {
     color:#ccc;
+}
+
+.news_list .news a strong, .news_title h1, .page_title h1 a {
+    color: white;
+}
+
+.social_network_icons {
+    color: #ccc;
 }
 
 div.sect div.hgroup {
@@ -46,7 +55,7 @@ a.linkdiv > span.desc {
 }
 
 #top_bar {
-    background:#2e3436;
+    background:#282828;
 }
 
 a {
@@ -61,12 +70,12 @@ a:hover {
     color:#00b7ff;
 }
 
-#footer {
-    background:#2e3436;
+#footer, .bg-grey {
+    background:#282828;
 }
 
 div.sidenav div.autotoc, div.sidenav {
-    background: #2e3436 !important;
+    background: #282828 !important;
     border: none;
 }
 
@@ -88,11 +97,12 @@ a.linkdiv:hover {
 }
     
 .subtle_box {
-    background: #2e3436;
+    background: #282828;
 }
 
 div.note {
     border: none;
     background-color: #262626;
 }
+
 }
