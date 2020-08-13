@@ -1,7 +1,7 @@
 @-moz-document domain("gnome.org") {
 /* ==UserStyle==
 @name         GNOME Dark
-@version      0.3.1
+@version      0.3.2
 @description  Dark theme for the GNOME websites
 @namespace    Daniel071
 @author       Daniel071
@@ -105,4 +105,22 @@ div.note {
     background-color: #262626;
 }
 
+.btn {
+    border-radius: 40px;
+}
+
+a.btn {
+    color:white;
+}
+a.btn:hover {
+    color:white;
+}
+
+.btn-default {
+    border: none;
+    background-color: #4a86cf;
+}
+.btn-default:hover {
+    background-color: #4a99ce;
+}
 }
