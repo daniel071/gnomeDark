@@ -1,7 +1,7 @@
 @-moz-document domain("gnome.org") {
 /* ==UserStyle==
 @name         GNOME Dark
-@version      0.1.2
+@version      0.2.0
 @description  Dark theme for the GNOME websites
 @namespace    Daniel071
 @author       Daniel071
@@ -28,8 +28,12 @@ h1 {
     text-shadow:none;
 }
 
+div#welcome h1 {
+    text-shadow: none;
+    border-bottom: none;
+}
 
-div.links, .desc, div.title, #container, span.gui, span.guiseq {
+div.links, .desc, div.title, #container, span.gui, span.guiseq, div.subindex p, div.links .desc {
     color:#ccc;
 }
 
@@ -59,6 +63,11 @@ a:hover {
 
 #footer {
     background:#2e3436;
+}
+
+div.sidenav div.autotoc, div.sidenav {
+    background: #2e3436 !important;
+    border: none;
 }
 
 #footer_art, #footer_grass, .action_box {
