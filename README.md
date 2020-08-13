@@ -10,10 +10,10 @@ Gnome Dark is a modern dark theme for the GNOME websites.
 - ❔ = Other
 
 ### Themed websites:
-- ❌ https://gnome.org/
-- ❌ https://shop.gnome.org/
-- ❌ https://planet.gnome.org/
-- ❌ https://mail.gnome.org/
+- ✔️ https://gnome.org/
+- ✔️ https://shop.gnome.org/
+- ✔️ https://planet.gnome.org/ (Theme works, but needs some work)
+- ✔️ https://mail.gnome.org/
 - ❌ https://mail.gnome.org/mailman/listinfo/
 - ✔️ https://help.gnome.org/
 - ✔️ https://wiki.gnome.org/
