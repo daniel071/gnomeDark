@@ -7,7 +7,7 @@ Gnome Dark is a modern dark theme for the GNOME websites.
 ### Key:
 - ✔️ = Supported
 - ❌ = Not supported yet
-- ❔ = Not tested
+- ❔ = Other
 
 ### Themed websites:
 - ❌ https://gnome.org/
@@ -17,7 +17,7 @@ Gnome Dark is a modern dark theme for the GNOME websites.
 - ❌ https://mail.gnome.org/mailman/listinfo/
 - ✔️ https://help.gnome.org/
 - ✔️ https://wiki.gnome.org/
-- ❔ https://developer.gnome.org/
+- ✔️ https://developer.gnome.org/
 
 ### Installation:
 #### A userstyle extension is required, common ones include
