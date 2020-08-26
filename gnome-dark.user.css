@@ -1,7 +1,7 @@
 @-moz-document domain("gnome.org") {
 /* ==UserStyle==
 @name         GNOME Dark
-@version      0.3.5
+@version      0.3.6
 @description  Dark theme for the GNOME websites
 @namespace    Daniel071
 @author       Daniel071
@@ -132,5 +132,9 @@ pre, tt {
 .synopsis, .classsynopsis, .programlisting {
     border: none;
     background: #262626;
+}
+
+#page {
+    background: none;
 }
 }
