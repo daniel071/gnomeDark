@@ -18,6 +18,7 @@ Gnome Dark is a modern dark theme for the GNOME websites.
 - ✔️ https://help.gnome.org/
 - ✔️ https://wiki.gnome.org/
 - ✔️ https://developer.gnome.org/
+- ✔️ https://blog.gnome.org/
 
 ### Installation:
 #### A userstyle extension is required, common ones include
